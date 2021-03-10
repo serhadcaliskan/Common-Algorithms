@@ -63,4 +63,5 @@ int main(void) {
     //prime indexes of number_array have value 0, others have 1
     print_primes(number_array,size);
     free(number_array);
+    return 0;
 }
